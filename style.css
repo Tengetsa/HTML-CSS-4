@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(./font/Gilroy-Bold.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(./font/Gilroy-Medium.woff2);
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url(./font/Gilroy-Semibold.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    /*margin-bottom: 164px;
+    padding: 45px 0;*/
+    margin-bottom: 82.71px;
+    margin-top: 40px;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+        align-items: center;
+}
+
+.navigation {
+    max-width: 533px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.link {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.nav_a1 {
+    color: #F25822;
+}
+.navigation a:hover {
+    color: #F25822;
+}
+
+.select_nav {
+	border: none;
+	position: relative;
+	outline: none;	
+}
+
+
+main {
+    margin-bottom: 260px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 260px;
+}
+
+.main-content__wrapper {
+    max-width: 590px;
+}
+
+.main-content__wrapper h1 {
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.main-content__wrapper p {
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    color: #888888;
+    margin-bottom: 37px;
+    margin-right: 73px;
+}
+
+.main-content__btn-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.main-content__btn {
+    /*width: 10vh;
+    height: 4vh;*/
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;   
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;  
+}
+
+.btn1{
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    line-height: 18px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.btn1 a {
+    color: #AAAAAA;
+}
+.main-content__img {
+    margin-right: 40px;
+}
+
+
+footer {
+
+}
+
+.logo {
+    max-width: 1200px;
+    max-height: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
